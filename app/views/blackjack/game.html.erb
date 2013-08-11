@@ -1,0 +1,29 @@
+<div class="page-header">
+  <h1>Blackjack</h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <div class="row actions">
+      <div class="span 8">
+        <%= link_to "Take Another Card", "#", class: 'btn btn-primary' %>
+        <%= link_to "Start Over", "#", class: 'btn btn-primary' %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span8">
+      <%= image_tag 'cards/2_of_hearts.png', width: 300 %>
+      <%= image_tag 'cards/3_of_spades.png', width: 300 %>
+      </div>
+    </div>
+  </div>
+  <div class="span4">
+    <h3>Challenges</h3>
+    <ol>
+      <li>Deal two random cards from the deck.</li>
+      <li>If the cards value 21, tell them they won!</li>
+      <li>If the cards are over 21, tell them they lost.</li>
+      <li>If they haven't won or lost, allow them to take another card.</li>
+    </ol>
+  </div>
+</div>
