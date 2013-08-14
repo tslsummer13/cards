@@ -12,18 +12,20 @@
     </div>
     <div class="row">
       <div class="span8">
-      <%= image_tag 'cards/2_of_hearts.png', width: 300 %>
-      <%= image_tag 'cards/3_of_spades.png', width: 300 %>
+      <%= image_tag 'cards/2_of_hearts.png', width: 100 %>
+      <%= image_tag 'cards/3_of_spades.png', width: 100 %>
       </div>
     </div>
   </div>
   <div class="span4">
     <h3>Challenges</h3>
+    <strong>Consider an Ace to have a value of 1.</strong>
     <ol>
       <li>Deal two random cards from the deck.</li>
       <li>If the cards value 21, tell them they won!</li>
       <li>If the cards are over 21, tell them they lost.</li>
-      <li>If they haven't won or lost, allow them to take another card.</li>
+      <li>If they haven't won nor lost, allow them to take another card.</li>
+      <li>Consider an Ace to have a value of 1 or 11, whichever is in the player's favor.</li>
     </ol>
   </div>
 </div>
